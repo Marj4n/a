@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="ID" />
+
+    <TextView
+        android:id="@+id/textNama"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textSize="18sp"
+        android:text="Nama Barang"
+        android:layout_marginStart="8dp" />
+
+    <TextView
+        android:id="@+id/textHarga"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:text="Harga"
+        android:layout_marginStart="8dp" />
+
+    <TextView
+        android:id="@+id/textJumlah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Jumlah"
+        android:layout_marginStart="8dp" />
+
+</LinearLayout>
